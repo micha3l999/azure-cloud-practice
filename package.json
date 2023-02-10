@@ -1,0 +1,25 @@
+{
+  "name": "udt-sample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "devDependencies": {
+    "@types/mssql": "^8.1.2",
+    "@types/node": "^16.x",
+    "@types/underscore": "^1.11.4",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "@azure/functions": "^3.5.0",
+    "mssql": "^7.3.5",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.12",
+    "underscore": "^1.13.6"
+  }
+}
